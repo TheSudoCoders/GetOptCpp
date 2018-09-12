@@ -121,8 +121,8 @@ a_str_variable: string
 Options: option another_one? quotes work too
 ```
 
-## LICENSE
+## License
 Licensed under [MIT License](https://github.com/TeamSudoCoders/GetOptCpp/blob/master/LICENSE.md).
 
-## CONTRIBUTING
+## Contributing
 Sure! Fork the repository, modify it, and then submit a pull request! The aim of this project is to be as quick to use as possible, so that developers won't need to build a giant library just to use a single feature. Hence, if possible, all contributions should stick to the theme of only using header (`.h` or `.hpp`) files!
