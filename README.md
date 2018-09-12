@@ -61,9 +61,10 @@ int main(int argc, char** argv) {
     std::string& a_str_variable = *go.flagString("-s,--string", "");
 
     //Once you are done setting the flags, you call:
-    go.readArgs(AS_IS);
+    go.readArgs();
     //This function returns a std::vector<std::string>, which contins the
     //flags that getoptc++ failed to parse. It is ok to ignore it.
+    //Pass an argument (either STRICT or AS_IS) to change it's behaviour. By default, it is on STRICT.
 
     //This function gets the options parsed by the previous call to go.readArgs
     //The type it returns is std::vector<std:string>
@@ -94,7 +95,7 @@ int main(int argc, char** argv) {
     double& a_double_variable = *go.flagFloating("-f,--floating,--float,--decimal", 0.0);
     std::string& a_str_variable = *go.flagString("-s,--string", "");
 
-    go.readArgs(AS_IS);
+    go.readArgs();
 
     auto options = go.getOptions();
 
