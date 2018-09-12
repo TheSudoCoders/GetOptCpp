@@ -2,7 +2,7 @@
 GetOptC++ is a C++11 header file that parses command line arguments. It's inspired mostly by Golang's `flag` package, although you shouldn't expect the same quality from here.
 It's a monolithic header file, so the only thing you really need to use GetOptC++ is the `getoptc++.hpp` file in this repository. That's it. Really.
 
-# Usage
+## Usage
 Simply download `getoptc++.hpp`, and add it into your project. Include the file, and you are off to the races!
 
 By default, GetOptC++ operates in `STRICT` mode, meaning only commands like these are valid:
@@ -121,8 +121,8 @@ a_str_variable: string
 Options: option another_one? quotes work too
 ```
 
-# LICENSE
-Check `LICENSE.md`.
+## LICENSE
+Licensed under [MIT License](https://github.com/TeamSudoCoders/GetOptCpp/blob/master/LICENSE.md).
 
-# CONTRIBUTING
+## CONTRIBUTING
 Sure! Fork the repository, modify it, and then submit a pull request! The aim of this project is to be as quick to use as possible, so that developers won't need to build a giant library just to use a single feature. Hence, if possible, all contributions should stick to the theme of only using header (`.h` or `.hpp`) files!
