@@ -1,3 +1,4 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TeamSudoCoders/GetOptCpp)    [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 # GetOptC++
 GetOptC++ is a C++11 header file that parses command line arguments. It's inspired mostly by Golang's `flag` package, although you shouldn't expect the same quality from here.
 It's a monolithic header file, so the only thing you really need to use GetOptC++ is the `getoptc++.hpp` file in this repository. That's it. Really.
